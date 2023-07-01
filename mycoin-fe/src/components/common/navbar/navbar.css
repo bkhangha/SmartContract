@@ -1,0 +1,31 @@
+
+.header{
+    background-color: #fff;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__left img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header__right{
+    display: flex;
+    align-items: flex-end;
+}
+
+.align-right {
+    display: flex !important;
+    justify-content: right !important;
+}

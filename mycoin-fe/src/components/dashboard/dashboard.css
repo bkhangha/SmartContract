@@ -1,0 +1,63 @@
+.container {
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  
+  body, html, .App, #root{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .wallet-controllers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .network-activity__action-wrap {
+    width: 60%;
+    height: 80px;
+    left: 12px;
+    top: 0;
+    background: #f9f9fb;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+  
+  .network-activity__action-item {
+    display: block;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .5px;
+    color: #202124;
+    cursor: pointer;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100px;
+    transition: background .3s ease-in-out;
+    border-radius: 8px;
+  }
+  
+  .network-activity__action-divider {
+    height: 48px;
+    width: 1px;
+    background: #dadce0;
+    margin: 0 4px 0 4px;
+  }
